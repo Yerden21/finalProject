@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav > a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5% 0 5%;
+}
+header > h1 {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+    margin: 20px;
+}
+
+.side-column {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.parent-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.ind-block {
+    display: flex;
+    flex-basis: 45%;
+    padding: 10px;
+}
+.item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    position: relative;
+}
+.item > img {
+    width: 100%;
+}
+.info {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0px;
+    color: whitesmoke;
+}
+.info h3 {
+    margin: 0px;
+    margin-bottom: 2%;
+}
+.info p {
+    margin: 0px;
+}
+.flex-list {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-list-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+    margin: 15px;
+}
+.flex-list-item > img {
+    height: 25%;
+}
+.flex-list-item > h1 {
+    margin: 0%;
+}
+.flex-list-item > p {
+    margin: 0%;
+}
+
+@media screen and (max-width: 1000px) {
+    .parent {
+        flex-direction: column;    
+    }
+    .side-column {
+        flex: none;
+    }
+    .item {
+        flex: none;
+    }
+    .parent-grid {
+        margin: 0px;
+    }
+    .ind-block {
+        flex-basis: 45%;
+    }
+    .ind-block > .item {
+        flex: 1;
+    }
+    .flex-list {
+        flex-direction: column;
+    }
+    .flex-list-item > img {
+        width: 100%;
+        height: auto;
+    }
+    .flex-list-item {
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flex-list-item > img {
+        display: none;
+    }
+    .ind-block > .item > img {
+        display: none;
+    }
+    .ind-block {
+        flex-basis: unset;
+        padding: 0px;
+        width: 100%;
+    }
+    .ind-block .info {
+        position: unset;
+        text-align: left;
+        margin-left: 3%;
+        width: 100%;
+        background-color: unset;
+    }
+}

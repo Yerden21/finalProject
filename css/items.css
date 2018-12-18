@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    margin: 0px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.side-bar {
+    width: 20%;
+    height: 100vh;
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-info {
+    flex: 1;
+    height: 100vh;
+    background-color: black;
+    overflow: scroll;
+    color: white;
+}
