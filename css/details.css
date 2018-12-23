@@ -1,0 +1,42 @@
+.body {
+    display: flex;
+    margin: 0px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.side-bar-left {
+    width: 15%;
+    background-color: aqua;
+    position: absolute;
+}
+.side-bar-right {
+    width: 15%;
+    background-color: aqua;
+    position: absolute;
+    right: 0px;
+}
+.main-info {
+    flex: 1;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.main-info img {
+    width: 60%;
+}
+.main-info p {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+.item img {
+
+}
