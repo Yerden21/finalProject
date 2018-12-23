@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 .body {
-=======
-body {
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
     display: flex;
     margin: 0px;
     min-height: 100vh;
@@ -18,7 +14,6 @@ body {
 }
 .main-info {
     flex: 1;
-<<<<<<< HEAD
     height: 92vh;
     background-color: black;
     overflow: scroll;
@@ -33,10 +28,4 @@ body {
 }
 .main-info img {
     width: 80%;
-=======
-    height: 100vh;
-    background-color: black;
-    overflow: scroll;
-    color: white;
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }

@@ -9,26 +9,18 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-<<<<<<< HEAD
     flex: 1;
-=======
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }
 .nav > a {
     text-decoration: none;
     color: black;
-<<<<<<< HEAD
     margin: 0 2% 0 2%;
-=======
-    margin: 0 5% 0 5%;
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }
 header > h1 {
     display: flex;
     margin: 10px;
     align-items: center;
 }
-<<<<<<< HEAD
 .nav-login {
     display: flex;
     align-items: center;
@@ -77,8 +69,6 @@ header > h1 {
     color: black;
     margin: 0 5% 0 5%;
 }
-=======
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 header {
     display: flex;
     justify-content: space-between;
@@ -92,10 +82,7 @@ footer {
     align-items: center;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     height: 10%;
-=======
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }
 
 .parent {
@@ -147,7 +134,6 @@ footer {
     margin: 0px;
     margin-bottom: 2%;
 }
-<<<<<<< HEAD
 .info > a {
     text-decoration: none;
     color: white;
@@ -156,11 +142,6 @@ footer {
 .info > a:hover {
     color: darkgrey;
 }
-=======
-.info p {
-    margin: 0px;
-}
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 .flex-list {
     background-color: blue;
     display: flex;
@@ -185,7 +166,6 @@ footer {
     margin: 0%;
 }
 
-<<<<<<< HEAD
 .signup-form {
     display: flex;
     flex-direction: column;
@@ -218,8 +198,6 @@ footer {
     margin: 50px;
 }
 
-=======
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 @media screen and (max-width: 1000px) {
     .parent {
         flex-direction: column;    
@@ -270,7 +248,6 @@ footer {
         width: 100%;
         background-color: unset;
     }
-<<<<<<< HEAD
 }
 
 
@@ -324,6 +301,4 @@ footer {
 }
 .form-upload textarea {
     width: 1030px;
-=======
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }

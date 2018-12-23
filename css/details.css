@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 .body {
-=======
-body {
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
     display: flex;
     margin: 0px;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-<<<<<<< HEAD
 .side-bar-left {
     width: 15%;
     background-color: aqua;
@@ -19,18 +14,12 @@ body {
     background-color: aqua;
     position: absolute;
     right: 0px;
-=======
-.side-bar {
-    width: 15%;
-    background-color: aqua;
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }
 .main-info {
     flex: 1;
     background-color: black;
     overflow: hidden;
     color: white;
-<<<<<<< HEAD
     text-align: center;
 }
 .main-info img {
@@ -50,6 +39,4 @@ body {
 }
 .item img {
 
-=======
->>>>>>> 21613977f564c8cb1b147891ba1efb8cac89be06
 }
